@@ -29,7 +29,9 @@ The audit snapshot was taken on **2026-11-12**:
 
 A repository with no license grants no rights by default; all rights are
 reserved by the copyright holder. For that reason this project does **not**
-copy upstream source, tests, documentation or examples.
+copy upstream source, tests, documentation or examples. If the upstream
+project later adds a license, that license would still not apply here because
+no upstream code is included.
 
 This observation is factual and is not legal advice.
 
