@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: kmp-bigdecimal
+message: If you use this library in academic work, please cite it using this metadata.
+type: software
+authors:
+  - family-names: Johansson
+    given-names: Sören
+    email: soren@sojo.se
+    website: https://github.com/sorjoh
+repository-code: https://github.com/sorjoh/kmp-bigdecimal
+url: https://github.com/sorjoh/kmp-bigdecimal
+license: MIT
+version: 0.1.0
+date-released: 2026-11-12
+abstract: A dependency-free arbitrary-precision BigDecimal implementation for Kotlin Multiplatform.
+keywords:
+  - kotlin
+  - kotlin-multiplatform
+  - bigdecimal
+  - arbitrary-precision
+  - android
+  - ios
+  - wasm
