@@ -1,0 +1,12 @@
+kmp-bigdecimal
+Copyright (c) 2026 Sören Johansson
+
+This library is an independent implementation of arbitrary-precision decimal
+arithmetic for Kotlin Multiplatform.
+
+It is not a fork of, and contains no implementation code copied from,
+ArtificialPB/bignum-kt, ionspin/kotlin-multiplatform-bignum, java.math, or any
+other big-number library. The public API intentionally follows familiar
+BigDecimal conventions so that it is easy to learn and migrate to.
+
+See PROVENANCE.md for the provenance and similarity audit.
