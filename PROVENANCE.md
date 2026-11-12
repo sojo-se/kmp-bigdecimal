@@ -22,6 +22,7 @@ implementation code.
 The audit snapshot was taken on **2026-11-12**:
 
 - Repository: `ArtificialPB/bignum-kt`, default branch `master`
+- Audited commit: `89dec7da9bbf984fbffa82f52fa1bab2217c0d78`
 - The cloned repository did not contain a `LICENSE`, `LICENSE.txt`, `COPYING`
   or `NOTICE` file.
 - The upstream README did not contain a license section.
