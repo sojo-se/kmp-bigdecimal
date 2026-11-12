@@ -28,7 +28,7 @@ The first release is being prepared with these coordinates:
 
 ```kotlin
 commonMain.dependencies {
-    implementation("io.github.sorjoh:kmp-bigdecimal:0.1.0")
+    implementation("io.github.sorjoh:kmp-bigdecimal:0.1.1")
 }
 ```
 
@@ -42,7 +42,7 @@ repositories {
 }
 
 commonMain.dependencies {
-    implementation("com.github.sorjoh:kmp-bigdecimal:0.1.0")
+    implementation("com.github.sorjoh:kmp-bigdecimal:0.1.1")
 }
 ```
 
@@ -56,7 +56,7 @@ Then add `mavenLocal()` to your repositories and use:
 
 ```kotlin
 commonMain.dependencies {
-    implementation("io.github.sorjoh:kmp-bigdecimal:0.1.0")
+    implementation("io.github.sorjoh:kmp-bigdecimal:0.1.1")
 }
 ```
 

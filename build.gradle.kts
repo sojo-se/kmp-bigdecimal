@@ -8,7 +8,7 @@ plugins {
 }
 
 group = providers.gradleProperty("GROUP").orElse("io.github.sorjoh").get()
-version = providers.gradleProperty("VERSION_NAME").orElse("0.1.0").get()
+version = providers.gradleProperty("VERSION_NAME").orElse("0.1.1").get()
 
 kotlin {
     androidTarget {

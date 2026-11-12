@@ -11,7 +11,7 @@ The project uses Semantic Versioning. Update `VERSION_NAME` in
 2. Create a signed tag:
 
    ```bash
-   git tag -s 0.1.0 -m "kmp-bigdecimal 0.1.0"
+   git tag -s 0.1.1 -m "kmp-bigdecimal 0.1.1"
    git push origin main --tags
    ```
 
@@ -19,7 +19,7 @@ The project uses Semantic Versioning. Update `VERSION_NAME` in
 4. JitPack builds tags automatically. Users can then depend on:
 
    ```kotlin
-   implementation("com.github.sorjoh:kmp-bigdecimal:0.1.0")
+   implementation("com.github.sorjoh:kmp-bigdecimal:0.1.1")
    ```
 
 ## Maven Central

@@ -3,6 +3,16 @@
 All notable changes to this project are documented in this file.
 The project follows [Semantic Versioning](https://semver.org/).
 
+## [0.1.1] - 2026-11-12
+
+### Changed
+
+- Updated GitHub Actions to current major versions.
+- Fixed the Android CI job by migrating from
+  `android-actions/setup-android@v3` to `@v4` and explicitly installing the
+  Android 35 platform and build tools.
+- No library API or behaviour changes.
+
 ## [0.1.0] - 2026-11-12
 
 ### Added
