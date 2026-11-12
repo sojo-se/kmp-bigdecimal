@@ -225,8 +225,9 @@ JavaScript `BigInt`, LibTomMath native backends). See
 
 ## Building and testing
 
-Requirements: JDK 17 or newer. Android builds need the Android SDK. iOS builds
-need macOS and Xcode.
+Requirements: JDK 17 or newer. Android builds need the Android SDK, either via
+`ANDROID_HOME` or a local `local.properties` file. iOS builds need macOS and
+Xcode; the Kotlin iOS klibs also compile from other hosts.
 
 ```bash
 # JVM tests, including randomized comparison with java.math.BigDecimal
