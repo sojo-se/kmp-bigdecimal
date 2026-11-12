@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-package io.github.sorjoh.bigdecimal
+package io.github.sojose.bigdecimal
 
 /**
  * Rounding modes compatible with the familiar Java/Kotlin decimal APIs.

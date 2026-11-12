@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-package io.github.sorjoh.bigdecimal
+package io.github.sojose.bigdecimal
 
 import java.math.BigDecimal as JavaBigDecimal
 import java.math.BigInteger as JavaBigInteger

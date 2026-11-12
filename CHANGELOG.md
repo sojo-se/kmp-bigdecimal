@@ -3,6 +3,18 @@
 All notable changes to this project are documented in this file.
 The project follows [Semantic Versioning](https://semver.org/).
 
+## [0.2.0] - 2026-11-12
+
+### Changed
+
+- GitHub account and repository references moved from `sorjoh` to `sojo-se`.
+- Maven group changed to `io.github.sojo-se`.
+- Kotlin package changed to `io.github.sojose.bigdecimal`; package
+  identifiers cannot contain a hyphen, so the package drops it.
+- **Migration:** replace imports of
+  `io.github.sorjoh.bigdecimal.*` with `io.github.sojose.bigdecimal.*` and use
+  the new `io.github.sojo-se:kmp-bigdecimal` coordinates.
+
 ## [0.1.1] - 2026-11-12
 
 ### Changed

@@ -6,11 +6,11 @@ authors:
   - family-names: Johansson
     given-names: Sören
     email: soren@sojo.se
-    website: https://github.com/sorjoh
-repository-code: https://github.com/sorjoh/kmp-bigdecimal
-url: https://github.com/sorjoh/kmp-bigdecimal
+    website: https://github.com/sojo-se
+repository-code: https://github.com/sojo-se/kmp-bigdecimal
+url: https://github.com/sojo-se/kmp-bigdecimal
 license: MIT
-version: 0.1.1
+version: 0.2.0
 date-released: 2026-11-12
 abstract: A dependency-free arbitrary-precision BigDecimal implementation for Kotlin Multiplatform.
 keywords:

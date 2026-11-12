@@ -11,7 +11,7 @@ The project uses Semantic Versioning. Update `VERSION_NAME` in
 2. Create a signed tag:
 
    ```bash
-   git tag -s 0.1.1 -m "kmp-bigdecimal 0.1.1"
+   git tag -s 0.2.0 -m "kmp-bigdecimal 0.2.0"
    git push origin main --tags
    ```
 
@@ -19,7 +19,7 @@ The project uses Semantic Versioning. Update `VERSION_NAME` in
 4. JitPack builds tags automatically. Users can then depend on:
 
    ```kotlin
-   implementation("com.github.sorjoh:kmp-bigdecimal:0.1.1")
+   implementation("com.github.sojo-se:kmp-bigdecimal:0.2.0")
    ```
 
 ## Maven Central
@@ -27,7 +27,7 @@ The project uses Semantic Versioning. Update `VERSION_NAME` in
 Maven Central requires a Sonatype namespace and GPG signing. The build already
 produces the required publications through `maven-publish`.
 
-1. Verify ownership of the `io.github.sorjoh` namespace through GitHub.
+1. Verify ownership of the `io.github.sojo-se` namespace through GitHub.
 2. Add Maven Central credentials and GPG secrets to your local Gradle
    properties or environment.
 3. Add the signing plugin and signing configuration for the release build.

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-package io.github.sorjoh.bigdecimal
+package io.github.sojose.bigdecimal
 
 /**
  * A small, dependency-free arbitrary-precision signed integer.

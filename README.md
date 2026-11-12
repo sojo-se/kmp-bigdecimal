@@ -1,6 +1,6 @@
 # kmp-bigdecimal
 
-[![CI](https://github.com/sorjoh/kmp-bigdecimal/actions/workflows/ci.yml/badge.svg)](https://github.com/sorjoh/kmp-bigdecimal/actions/workflows/ci.yml)
+[![CI](https://github.com/sojo-se/kmp-bigdecimal/actions/workflows/ci.yml/badge.svg)](https://github.com/sojo-se/kmp-bigdecimal/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 A dependency-free arbitrary-precision decimal library for Kotlin Multiplatform.
@@ -22,13 +22,19 @@ common Kotlin, so results such as `0.1 + 0.2 = 0.3` are exact on every target.
 
 ## Installation
 
+The Maven group is `io.github.sojo-se`. Kotlin package identifiers cannot
+contain a hyphen, so the package is `io.github.sojose.bigdecimal`.
+
+Upgrading from 0.1.x? Replace imports of `io.github.sorjoh.bigdecimal.*` with
+`io.github.sojose.bigdecimal.*`.
+
 ### Maven Central
 
 The first release is being prepared with these coordinates:
 
 ```kotlin
 commonMain.dependencies {
-    implementation("io.github.sorjoh:kmp-bigdecimal:0.1.1")
+    implementation("io.github.sojo-se:kmp-bigdecimal:0.2.0")
 }
 ```
 
@@ -42,7 +48,7 @@ repositories {
 }
 
 commonMain.dependencies {
-    implementation("com.github.sorjoh:kmp-bigdecimal:0.1.1")
+    implementation("com.github.sojo-se:kmp-bigdecimal:0.2.0")
 }
 ```
 
@@ -56,16 +62,16 @@ Then add `mavenLocal()` to your repositories and use:
 
 ```kotlin
 commonMain.dependencies {
-    implementation("io.github.sorjoh:kmp-bigdecimal:0.1.1")
+    implementation("io.github.sojo-se:kmp-bigdecimal:0.2.0")
 }
 ```
 
 ## Quick start
 
 ```kotlin
-import io.github.sorjoh.bigdecimal.BigDecimal
-import io.github.sorjoh.bigdecimal.MathContext
-import io.github.sorjoh.bigdecimal.RoundingMode
+import io.github.sojose.bigdecimal.BigDecimal
+import io.github.sojose.bigdecimal.MathContext
+import io.github.sojose.bigdecimal.RoundingMode
 
 val exact = BigDecimal("0.1") + BigDecimal("0.2")
 check(exact.toPlainString() == "0.3")
@@ -180,8 +186,8 @@ The library also exposes its pure Kotlin arbitrary-precision integer:
 ### Convenience extensions
 
 ```kotlin
-import io.github.sorjoh.bigdecimal.toBigDecimal
-import io.github.sorjoh.bigdecimal.toBigInteger
+import io.github.sojose.bigdecimal.toBigDecimal
+import io.github.sojose.bigdecimal.toBigInteger
 
 "1.25".toBigDecimal()
 42.toBigDecimal()
@@ -259,7 +265,7 @@ Central. To publish:
 4. Run `./gradlew publish` with the Sonatype credentials.
 
 JitPack requires no publishing step: tag a release and use the
-`com.github.sorjoh:kmp-bigdecimal:<tag>` coordinate.
+`com.github.sojo-se:kmp-bigdecimal:<tag>` coordinate.
 
 ## License
 

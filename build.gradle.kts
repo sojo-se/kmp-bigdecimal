@@ -7,8 +7,8 @@ plugins {
     `maven-publish`
 }
 
-group = providers.gradleProperty("GROUP").orElse("io.github.sorjoh").get()
-version = providers.gradleProperty("VERSION_NAME").orElse("0.1.1").get()
+group = providers.gradleProperty("GROUP").orElse("io.github.sojo-se").get()
+version = providers.gradleProperty("VERSION_NAME").orElse("0.2.0").get()
 
 kotlin {
     androidTarget {
@@ -60,7 +60,7 @@ kotlin {
 }
 
 android {
-    namespace = "io.github.sorjoh.bigdecimal"
+    namespace = "io.github.sojose.bigdecimal"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
 
     defaultConfig {
@@ -80,7 +80,7 @@ publishing {
             description.set(
                 "Dependency-free arbitrary-precision BigDecimal for Kotlin Multiplatform",
             )
-            url.set("https://github.com/sorjoh/kmp-bigdecimal")
+            url.set("https://github.com/sojo-se/kmp-bigdecimal")
             licenses {
                 license {
                     name.set("MIT License")
@@ -90,16 +90,16 @@ publishing {
             }
             developers {
                 developer {
-                    id.set("sorjoh")
+                    id.set("sojo-se")
                     name.set("Sören Johansson")
                     email.set("soren@sojo.se")
-                    url.set("https://github.com/sorjoh")
+                    url.set("https://github.com/sojo-se")
                 }
             }
             scm {
-                connection.set("scm:git:git://github.com/sorjoh/kmp-bigdecimal.git")
-                developerConnection.set("scm:git:ssh://github.com/sorjoh/kmp-bigdecimal.git")
-                url.set("https://github.com/sorjoh/kmp-bigdecimal")
+                connection.set("scm:git:git://github.com/sojo-se/kmp-bigdecimal.git")
+                developerConnection.set("scm:git:ssh://github.com/sojo-se/kmp-bigdecimal.git")
+                url.set("https://github.com/sojo-se/kmp-bigdecimal")
             }
         }
     }
