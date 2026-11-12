@@ -56,7 +56,7 @@ and exact-line overlap checks.
 
 Results for the initial extraction:
 
-- Highest token-sequence ratio: **0.35**, for the small convenience-factory
+- Highest token-sequence ratio: **0.36**, for the small convenience-factory
   file whose identifiers are mostly public API names.
 - Highest ratio for the main `BigDecimal.kt`: **below 0.09**.
 - Longest common token run: **45 tokens**, in the standard decimal
